@@ -109,7 +109,7 @@ body{
 
 .why-us-msg-container {
   padding: 4rem;
-  height: 500px;
+  height: 300px;
   background-color: rgb(255,255,255);
 
   /* Child Alignment */
@@ -124,7 +124,12 @@ body{
   padding-bottom: 1rem;
 }
 
+.why-us-msg{
+  line-height:1.5;
+}
+
 .why{
-  margin-top: 10px;
+  display: inline-block;
   border-bottom: 4px solid rgb(241,173,134);
+  height: 35px;
 }
