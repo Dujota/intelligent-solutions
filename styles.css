@@ -108,6 +108,7 @@ body{
 }
 
 .why-us-msg-container {
+  padding: 4rem;
   height: 500px;
   background-color: rgb(255,255,255);
 
@@ -117,3 +118,13 @@ body{
   justify-content: center;
 }
 
+.why-us-header{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.why{
+  margin-top: 10px;
+  border-bottom: 4px solid rgb(241,173,134);
+}
