@@ -1,3 +1,7 @@
+body{
+  background-color: #eee;
+}
+
 /* Buttons */
 .btn{
   min-width: 48px;
