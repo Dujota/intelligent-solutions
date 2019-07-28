@@ -1,0 +1,16 @@
+#landing {
+  /* opacity: 0.777; */
+  width: 100vw;
+  height: 100vh;
+  background: url(./assets/images/hero-image-landing.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overlay{
+  background-color: rgba(4,84,109,0.34);
+  width: 100vw;
+  height:100vh;
+}
