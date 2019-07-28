@@ -90,12 +90,25 @@ body{
 /* WHY US SECTION */
 
 #why-us{
-  margin-top:400px;
+  /* create some space for body grey to show and then float an action area */
+  margin-top:250px;
+
+  /* Alignment */
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .why-us-img{
-  width:500px;
+  width:700px;
+}
 
+.why-us-msg-container {
+  height: 400px;
+  background-color: white;
+
+  /* Child Alignment */
+  display: flex;
+  align-items: center;
 }
 
