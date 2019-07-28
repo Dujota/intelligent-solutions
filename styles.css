@@ -80,11 +80,11 @@ body{
 /* FLOATING ACTION ASIDE */
 .floating-action-container{
   background-color: rgb(241,173,134);
-  height:400px;
-  width: 400px;
+  height:180px;
+  width: 300px;
   position: absolute;
   right:150px;
-  bottom: -250px;
+  bottom: -100px;
 }
 
 /* WHY US SECTION */
