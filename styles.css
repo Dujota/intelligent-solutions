@@ -1,12 +1,40 @@
+/* Buttons */
+.btn{
+  min-width: 48px;
+  width: 100px;
+  padding: 5px 16px;
+  height: 27px;
+  border-radius: 3px;
+  border: solid 1px rgba(255, 255, 255, 1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary{
+  background-color: orange;
+  border-color: orange;
+}
+
+
+/* HERO IMAGE  */
+
 #landing {
-  /* opacity: 0.777; */
+  /* Hero Image */
   width: 100vw;
   height: 100vh;
-  background: url(./assets/images/hero-image-landing.jpg) no-repeat center center fixed;
+  background: url(./assets/images/hero-image-landing.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .overlay{
@@ -14,3 +42,34 @@
   width: 100vw;
   height:100vh;
 }
+
+/* message inside the hero image lander */
+.container{
+  left: 150px;
+  color: white;
+  position: absolute;
+}
+
+.welcome-msg{
+  display: flex;
+  flex-direction: column;
+  width:60%;
+}
+
+.heading{
+  font-size: 50px;
+}
+
+.message{
+  line-height: 1.5;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.actions{
+  display: flex;
+}
+
+.actions > .btn.btn-primary{
+  margin-right: 1.5rem;
+}
+
