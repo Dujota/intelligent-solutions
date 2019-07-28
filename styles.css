@@ -1,5 +1,5 @@
 body{
-  background-color: lightgray;
+  background-color:rgb(247,251,255);
 }
 
 /* Buttons */
@@ -17,8 +17,8 @@ body{
 }
 
 .btn-primary{
-  background-color: orange;
-  border-color: orange;
+  background-color: rgb(241,173,134);
+  border-color:rgb(241,173,134);
 }
 
 
@@ -79,7 +79,7 @@ body{
 
 /* FLOATING ACTION ASIDE */
 .floating-action-container{
-  background-color: orange;
+  background-color: rgb(241,173,134);
   height:400px;
   width: 400px;
   position: absolute;
@@ -105,7 +105,7 @@ body{
 
 .why-us-msg-container {
   height: 400px;
-  background-color: white;
+  background-color: rgb(255,255,255);
 
   /* Child Alignment */
   display: flex;
