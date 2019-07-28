@@ -1,5 +1,7 @@
 body{
   background-color:rgb(247,251,255);
+  /* overflow-x: hidden; */
+  width: 100vw;
 }
 
 /* Buttons */
@@ -91,7 +93,7 @@ body{
 
 #why-us{
   /* create some space for body grey to show and then float an action area */
-  margin-top:250px;
+  margin-top:130px;
 
   /* Alignment */
   display: flex;
@@ -100,11 +102,13 @@ body{
 }
 
 .why-us-img{
-  width:700px;
+  height: 600px;
+  width: 700px;
+  object-fit: cover;
 }
 
 .why-us-msg-container {
-  height: 400px;
+  height: 500px;
   background-color: rgb(255,255,255);
 
   /* Child Alignment */
