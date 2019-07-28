@@ -77,3 +77,16 @@ body{
   margin-right: 1.5rem;
 }
 
+
+/* WHY US SECTION */
+
+#why-us{
+  margin-top:400px;
+  display: flex;
+}
+
+.why-us-img{
+  width:500px;
+  heigh:500px;
+}
+
