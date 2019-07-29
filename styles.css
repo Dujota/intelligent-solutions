@@ -248,3 +248,18 @@ padding-bottom: 1rem;
   line-height: 1.5;
 }
 
+/* BEHIND THE BACK STORY */
+
+#behind-the-story{
+  height: 400px;
+  width: 100vw;
+  background: url(./assets/images/collaboration.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#behind-the-story > .overlay{
+  height: 400px;
+}
+
