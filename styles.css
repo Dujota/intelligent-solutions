@@ -34,6 +34,7 @@ body{
   color:rgb(241,173,134);
 }
 
+
 /* Generic Headers */
 .section-header{
 font-size: 20px;
@@ -251,8 +252,19 @@ padding-bottom: 1rem;
 /* BEHIND THE BACK STORY */
 
 #behind-the-story{
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(255,255,255);
+
+  /* Sizing */
   height: 400px;
   width: 100vw;
+
+  /* Parallax image */
   background: url(./assets/images/collaboration.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -261,5 +273,51 @@ padding-bottom: 1rem;
 }
 #behind-the-story > .overlay{
   height: 400px;
+  position: absolute;
 }
+
+.story-container{
+  width: 80%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+.story-header{
+  font-size: 35px;
+}
+
+.story-text{
+  margin: 1rem 0;
+  line-height: 1.5;
+  max-width: 500px;
+}
+
+.learn-more{
+  margin: 1rem 0 2rem 0;
+}
+
+.stats{
+  margin: 1rem 0;
+  display: flex;
+}
+
+.stat{
+  flex:1 0 25%;
+}
+
+.number{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+}
+.stat-name{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+
+
+
+
+
 
