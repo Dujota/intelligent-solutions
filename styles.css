@@ -2,6 +2,7 @@ body{
   background-color:rgb(247,251,255);
   /* overflow-x: hidden; */
   width: 100vw;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* Buttons */
