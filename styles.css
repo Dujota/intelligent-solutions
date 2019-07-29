@@ -34,6 +34,14 @@ body{
   color:rgb(241,173,134);
 }
 
+/* Generic Headers */
+.section-header{
+font-size: 20px;
+font-weight: bold;
+padding-bottom: 1rem;
+}
+
+
 /* HERO IMAGE  */
 
 #landing {
@@ -121,7 +129,7 @@ body{
 #why-us{
   /* create some space for body grey to show and then float an action area */
   margin-top:130px;
-
+  width: 100vw;
   /* Alignment */
   display: flex;
   justify-content: center;
@@ -145,12 +153,6 @@ body{
   justify-content: center;
 }
 
-.why-us-header{
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: 1rem;
-}
-
 .why-us-msg{
   line-height:1.5;
 }
@@ -164,9 +166,57 @@ body{
 /* SERVICES SECTION */
 
 #service{
-  margin-top: 5rem;
-  width: 100vw;
-  height: 100vh;
+  padding: 4rem;
+  margin-top: 1rem;
+  width:80%;
+  margin: 0 auto;
+
+  /* FLEX */
+  display: flex;
+  flex-direction: column;
 }
 
+/* Service Header  Styling*/
+.service-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-msg {
+  display: flex;
+}
+
+.text {
+  width: 60%;
+  line-height: 1.5;
+}
+
+.view-more-services{
+  /* FLEX */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-services-link{
+  color: rgb(241,173,134);
+}
+
+/* Service Card Container */
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-card {
+  /* SIZING */
+  height: 200px;
+  padding: 2rem;
+  margin: 3rem 3rem 3rem 0;
+
+  background-color: rgb(255,255,255);
+
+  /* FLEX */
+  flex: 1 0 20%;
+}
 
