@@ -35,6 +35,10 @@ body{
   color:rgb(241,173,134);
 }
 
+.pricing-btn {
+  color: rgb(255,255,255);
+}
+
 
 /* Generic Headers */
 .section-header{
@@ -164,9 +168,10 @@ padding-bottom: 1rem;
 .why-us-msg{
   line-height:1.5;
 }
+/*
+-------SHARED STYLES BETWEEN PRICING AND SERVICES ------
 
-/* SERVICES & PRICING SECTION CONTAINER STYLING*/
-
+SERVICES & PRICING SECTION CONTAINER STYLING */
 #service, #pricing{
   padding: 4rem;
   margin-top: 1rem;
@@ -205,6 +210,10 @@ padding-bottom: 1rem;
 .more-services-link, .learn-more-text-link{
   color: rgb(241,173,134);
 }
+
+/*
+ ----------------------- SHARED STYLES END -----------------------
+*/
 
 /* Service Card Container */
 .services-container{
@@ -315,6 +324,13 @@ padding-bottom: 1rem;
   font-weight: 700;
 }
 
+
+/* PRICING SECTION STYLES */
+
+.pricing-card{
+  display: flex;
+  flex-direction: column;
+}
 
 
 
