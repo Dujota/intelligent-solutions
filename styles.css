@@ -165,9 +165,9 @@ padding-bottom: 1rem;
   line-height:1.5;
 }
 
-/* SERVICES SECTION */
+/* SERVICES & PRICING SECTION CONTAINER STYLING*/
 
-#service{
+#service, #pricing{
   padding: 4rem;
   margin-top: 1rem;
   width:80%;
@@ -178,14 +178,14 @@ padding-bottom: 1rem;
   flex-direction: column;
 }
 
-/* Service Header  Styling*/
-.service-header {
+/* Service & Pricing Header  Styling*/
+.service-header, .pricing-header {
   display: flex;
   flex-direction: column;
   margin-bottom: 3rem;
 }
 
-.service-msg {
+.service-msg, .pricing-msg {
   display: flex;
 }
 
@@ -194,7 +194,7 @@ padding-bottom: 1rem;
   line-height: 1.5;
 }
 
-.view-more-services{
+.view-more-services, .learn-more-about-pricing{
   /* FLEX */
   width: 40%;
   display: flex;
@@ -202,7 +202,7 @@ padding-bottom: 1rem;
   align-items: center;
 }
 
-.more-services-link{
+.more-services-link, .learn-more-text-link{
   color: rgb(241,173,134);
 }
 
@@ -246,7 +246,6 @@ padding-bottom: 1rem;
 }
 
 .card-msg{
-  padding: 2rem;
   line-height: 1.5;
 }
 
