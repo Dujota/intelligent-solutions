@@ -60,7 +60,7 @@ padding-bottom: 1rem;
   /* Hero Image */
   width: 100vw;
   height: 100vh;
-  background: url(./assets/images/hero-image-landing.jpg) no-repeat center center;
+  background: url(../images/hero-image-landing.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -274,7 +274,7 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   width: 100vw;
 
   /* Parallax image */
-  background: url(./assets/images/collaboration.jpg) no-repeat center center fixed;
+  background: url(../images/collaboration.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
