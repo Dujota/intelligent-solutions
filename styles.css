@@ -172,7 +172,7 @@ padding-bottom: 1rem;
 <------------------------   SHARED STYLES BETWEEN PRICING AND SERVICES   ------------------------>
 
 SERVICES & PRICING SECTION CONTAINER STYLING */
-#service, #pricing{
+#service, #pricing, #testionials{
   padding: 4rem;
   margin-top: 1rem;
   width:80%;
@@ -184,7 +184,7 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 }
 
 /* Service & Pricing Header  Styling*/
-.service-header, .pricing-header {
+.service-header, .pricing-header, .testimonials-header {
   display: flex;
   flex-direction: column;
   margin-bottom: 3rem;
