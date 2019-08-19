@@ -416,9 +416,16 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   -webkit-box-flex:1;
       -ms-flex:1 0 25%;
           flex:1 0 25%;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          flex-direction: column;
-          align-items: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
           margin: 2px;
 }
 
@@ -568,13 +575,13 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 
   .service-card{
     height: 250px;
-    /* width: 50%; */
     padding: 2rem;
     margin: 2rem;
   }
 
   .stats{
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -582,7 +589,6 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 @media only screen and (max-width: 575px){
 
   .welcome-msg{
-    /* margin: 0 1rem; */
     width: 100%;
   }
 
@@ -625,11 +631,12 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 
  .view-more-services, .learn-more-about-pricing {
    width: 100%;
-   justify-content: flex-start;
+   -webkit-box-pack: start;
+       -ms-flex-pack: start;
+           justify-content: flex-start;
    margin-top: 1rem;
  }
 }
-
 
 
 
