@@ -1,6 +1,6 @@
 body{
   background-color:rgb(247,251,255);
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   width: 100vw;
   font-family: 'Quicksand', sans-serif;
 }
@@ -14,9 +14,17 @@ body{
   border-radius: 3px;
   border: solid 1px rgba(255, 255, 255, 1);
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .btn-primary{
@@ -61,16 +69,26 @@ padding-bottom: 1rem;
   width: 100vw;
   height: 100vh;
   background: url(../images/hero-image-landing.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 
 
+  display: -webkit-box;
+
+
+  display: -ms-flexbox;
+
+
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .overlay{
@@ -87,8 +105,13 @@ padding-bottom: 1rem;
 }
 
 .welcome-msg{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width:60%;
 }
 
@@ -102,6 +125,8 @@ padding-bottom: 1rem;
 }
 
 .actions{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -127,9 +152,16 @@ padding-bottom: 1rem;
   bottom: -135px;
 
   /* Flex */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .fab-header {
@@ -140,29 +172,47 @@ padding-bottom: 1rem;
 
 #why-us{
   /* create some space for body grey to show and then float an action area */
-  margin-top:130px;
+  margin-top:160px;
   width: 100vw;
   /* Alignment */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choose-image-container{
+  height: 400px;
+  min-width: 300px;
 }
 
 .why-us-img{
-  height: 600px;
-  width: 700px;
-  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
+
 .why-us-msg-container {
-  padding: 4rem;
+  padding: 1.5rem;
   height: 300px;
   background-color: rgb(255,255,255);
 
   /* Child Alignment */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .why-us-msg{
@@ -179,18 +229,30 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   margin: 0 auto;
 
   /* FLEX */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 /* Service & Pricing Header  Styling*/
 .service-header, .pricing-header, .testimonials-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-bottom: 3rem;
 }
 
 .service-msg, .pricing-msg {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -202,9 +264,15 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 .view-more-services, .learn-more-about-pricing{
   /* FLEX */
   width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .more-services-link, .learn-more-text-link{
@@ -217,8 +285,11 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 
 /* Service Card Container */
 .services-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .service-card {
   /* SIZING */
@@ -229,15 +300,29 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   background-color: rgb(255,255,255);
 
   /* FLEX */
-  flex: 1 0 20%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 20%;
+          flex: 1 0 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .card-header{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .icon{
@@ -262,10 +347,19 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 
 #behind-the-story{
   /* Flex */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 
   color: rgb(255,255,255);
 
@@ -273,23 +367,29 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   height: 400px;
   width: 100vw;
 
+  /* overflow-x: scroll; */
+  font-size: 1rem;
+
   /* Parallax image */
   background: url(../images/collaboration.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 #behind-the-story > .overlay{
   height: 400px;
   position: absolute;
+
 }
 
 .story-container{
-  width: 80%;
+  /* width: 80%; */
   z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .story-header{
   font-size: 35px;
@@ -307,11 +407,19 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 
 .stats{
   margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .stat{
-  flex:1 0 25%;
+  -webkit-box-flex:1;
+      -ms-flex:1 0 25%;
+          flex:1 0 25%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0 2px;
 }
 
 .number{
@@ -328,10 +436,15 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 /* PRICING SECTION STYLES */
 
 .pricing-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 
@@ -345,13 +458,25 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   margin: 1rem;
   padding: 2rem;
 
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+
+  -webkit-box-direction: normal;
+
+      -ms-flex-direction: column;
+
+          flex-direction: column;
 }
 
 .pricing-card:nth-child(n+1){
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* Plan Name */
@@ -362,9 +487,16 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 
 /* Plan Cost container */
 .plan-cost{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 
   margin: 1rem;
 }
@@ -382,9 +514,16 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 .plan-description{
   line-height: 3;
   margin-bottom: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .not-included{
@@ -392,7 +531,89 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 }
 
 
+/* MOBILE MEDIA QUERIES*/
 
+/* LandScape and Tablet */
+@media only screen and (max-width: 725px){
+  /* Stack the Image and the Why us text on smaller screens */
+  #why-us{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  /* Stack the service cards on small screens  */
+  .services-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .service-msg, .pricing-msg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .service-card{
+    height: 250px;
+    /* width: 50%; */
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  .stats{
+    flex-wrap: wrap;
+  }
+}
+
+/* Small Screen Portrait */
+@media only screen and (max-width: 575px){
+  .container{
+    left: 0;
+  }
+
+  #service, #pricing,  #testionials{
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  .learn-more {
+    margin: 1rem 0;
+  }
+
+  #behind-the-story, #behind-the-story> .overlay{
+    height: 500px
+  }
+  .story{
+    margin: 0 1.3rem;
+  }
+
+ .why-us-msg-container {
+   height:100%;
+ }
+
+ .text{
+   width: 100%;
+ }
+
+ .view-more-services, .learn-more-about-pricing {
+   width: 100%;
+   justify-content: flex-start;
+   margin-top: 1rem;
+ }
+}
 
 
 
