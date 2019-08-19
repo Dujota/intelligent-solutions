@@ -419,7 +419,7 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
           display: flex;
           flex-direction: column;
           align-items: center;
-          margin: 0 2px;
+          margin: 2px;
 }
 
 .number{
@@ -580,8 +580,23 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 
 /* Small Screen Portrait */
 @media only screen and (max-width: 575px){
+
+  .welcome-msg{
+    /* margin: 0 1rem; */
+    width: 100%;
+  }
+
+  .floating-action-container {
+    height: 185px;
+    width: 273px;
+    right: 25px;
+    bottom: -155px;
+
+}
+
   .container{
     left: 0;
+    margin: 0 1rem;
   }
 
   #service, #pricing,  #testionials{
