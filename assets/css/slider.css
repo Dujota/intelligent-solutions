@@ -1,0 +1,19 @@
+section#testionials {
+  text-align: center;
+}
+
+.testimonial-header{
+  align-items: center;
+}
+
+.testimonial-slider{
+  text-align: center;
+  width: 70%;
+  align-self: center;
+  /* text-align: center; */
+}
+
+.testimonial-msg {
+  /* width: 80%; */
+  line-height: 2;
+}

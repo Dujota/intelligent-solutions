@@ -106,13 +106,9 @@ padding-bottom: 1rem;
   background: url(../images/hero-image-landing.jpg) no-repeat center center;
   background-size: cover;
 
-
+  /* FLEX */
   display: -webkit-box;
-
-
   display: -ms-flexbox;
-
-
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -257,7 +253,7 @@ padding-bottom: 1rem;
 <------------------------   SHARED STYLES BETWEEN PRICING AND SERVICES   ------------------------>
 
 SERVICES & PRICING SECTION CONTAINER STYLING */
-#service, #pricing, #testionials{
+#service, #pricing, #testionials, #footer{
   padding: 4rem;
   margin-top: 1rem;
   width:80%;
@@ -617,7 +613,7 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   }
 
   .service-card{
-    height: 250px;
+    min-height: 250px;
     padding: 2rem;
     margin: 2rem;
   }
@@ -680,3 +676,37 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
    margin-top: 1rem;
  }
 }
+
+/* Footer */
+#footer {
+  background-color: rgb(45,53,66);
+  color: rgb(255,255,255);
+  width:100%;
+}
+
+.contact-info, .footer-credentials, .footer-quicklinks,.footer-msg-container {
+  margin: 1rem;
+}
+
+.sitemap-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-msg-container{
+  display: flex;
+  flex-direction: column;
+  /* width: 40%; */
+  width: 400px;
+  height: 100px;
+}
+
+.footer-quicklinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+}
+
+
