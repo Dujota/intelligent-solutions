@@ -1,12 +1,12 @@
-body{
-  background-color:rgb(247,251,255);
+body {
+  background-color: rgb(247, 251, 255);
   overflow-x: hidden;
   width: 100vw;
   font-family: 'Quicksand', sans-serif;
 }
 
 /* Buttons */
-.btn{
+.btn {
   min-width: 48px;
   width: 100px;
   padding: 5px 16px;
@@ -20,53 +20,53 @@ body{
 
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.btn-primary{
-  background-color: rgb(241,173,134);
-  border-color:rgb(241,173,134);
+.btn-primary {
+  background-color: rgb(241, 173, 134);
+  border-color: rgb(241, 173, 134);
 }
 
-.learn-more-btn{
+.learn-more-btn {
   margin-top: 2rem;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
 }
 
-.fab-btn{
+.fab-btn {
   margin-top: 1.5rem;
   min-height: 27px;
-  background-color: rgb(255,255,255);
-  color:rgb(241,173,134);
+  background-color: rgb(255, 255, 255);
+  color: rgb(241, 173, 134);
 }
 
 .pricing-btn {
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
 }
 
 
 /* Generic Headers */
-.section-header{
-font-size: 20px;
-font-weight: bold;
-padding-bottom: 1rem;
+.section-header {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
 }
 
-.underline{
+.underline {
   display: inline-block;
-  border-bottom: 4px solid rgb(241,173,134);
+  border-bottom: 4px solid rgb(241, 173, 134);
   height: 35px;
 }
 
 /* Shadows */
 
-.shadow{
-  -webkit-box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
-          box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
+.shadow {
+  -webkit-box-shadow: 0 1px 1px 0 rgba(60, 64, 67, .08), 0 1px 3px 1px rgba(60, 64, 67, .16);
+  box-shadow: 0 1px 1px 0 rgba(60, 64, 67, .08), 0 1px 3px 1px rgba(60, 64, 67, .16);
 }
 
 /* NAV BAR STYLING */
@@ -81,19 +81,19 @@ padding-bottom: 1rem;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   z-index: 99999999;
 
 
 }
 
-#nav-bar > a{
+#nav-bar>a {
   text-decoration: none;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
 }
 
 
@@ -112,74 +112,74 @@ padding-bottom: 1rem;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
-.overlay{
-  background-color: rgba(4,84,109,0.34);
+.overlay {
+  background-color: rgba(4, 84, 109, 0.34);
   width: 100vw;
-  height:100vh;
+  height: 100vh;
 }
 
 /* message inside the hero image lander */
-.container{
+.container {
   left: 150px;
   color: white;
   position: absolute;
 }
 
-.welcome-msg{
+.welcome-msg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width:60%;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 60%;
 }
 
-.heading{
+.heading {
   font-size: 50px;
 }
 
-.message{
+.message {
   line-height: 1.5;
   margin: 0.5rem 0 1.5rem 0;
 }
 
-.actions{
+.actions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.actions > .btn.btn-primary{
+.actions>.btn.btn-primary {
   margin-right: 1.5rem;
 }
 
 /* FLOATING ACTION ASIDE */
-.floating-action-container{
+.floating-action-container {
 
   line-height: 1.5;
-  color: rgb(255,255,255);
-  background-color: rgb(241,173,134);
+  color: rgb(255, 255, 255);
+  background-color: rgb(241, 173, 134);
 
   /* Sizing */
-  height:180px;
+  height: 180px;
   width: 300px;
   padding: 2rem;
 
   /* Position */
   position: absolute;
-  right:165px;
+  right: 165px;
   bottom: -135px;
 
   /* Flex */
@@ -188,11 +188,11 @@ padding-bottom: 1rem;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .fab-header {
@@ -201,9 +201,9 @@ padding-bottom: 1rem;
 
 /* WHY US SECTION */
 
-#why-us{
+#why-us {
   /* create some space for body grey to show and then float an action area */
-  margin-top:160px;
+  margin-top: 160px;
   width: 100vw;
   /* Alignment */
   display: -webkit-box;
@@ -211,27 +211,27 @@ padding-bottom: 1rem;
   display: flex;
   /* justify-content: center; */
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.choose-image-container{
+.choose-image-container {
   height: 400px;
   min-width: 300px;
 }
 
-.why-us-img{
+.why-us-img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 
 .why-us-msg-container {
   padding: 1.5rem;
   height: 300px;
-  background-color: rgb(255,255,255);
+  background-color: rgb(255, 255, 255);
 
   /* Child Alignment */
   display: -webkit-box;
@@ -239,24 +239,27 @@ padding-bottom: 1rem;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.why-us-msg{
-  line-height:1.5;
+.why-us-msg {
+  line-height: 1.5;
 }
+
 /*
 <------------------------   SHARED STYLES BETWEEN PRICING AND SERVICES   ------------------------>
 
 SERVICES & PRICING SECTION CONTAINER STYLING */
-#service, #pricing, #testionials, #footer{
+#service,
+#pricing,
+#testionials {
   padding: 4rem;
   margin-top: 1rem;
-  width:80%;
+  width: 80%;
   margin: 0 auto;
 
   /* FLEX */
@@ -265,23 +268,26 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 /* Service & Pricing Header  Styling*/
-.service-header, .pricing-header, .testimonials-header {
+.service-header,
+.pricing-header,
+.testimonials-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 3rem;
 }
 
-.service-msg, .pricing-msg {
+.service-msg,
+.pricing-msg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -292,22 +298,24 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   line-height: 1.5;
 }
 
-.view-more-services, .learn-more-about-pricing{
+.view-more-services,
+.learn-more-about-pricing {
   /* FLEX */
   width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.more-services-link, .learn-more-text-link{
-  color: rgb(241,173,134);
+.more-services-link,
+.learn-more-text-link {
+  color: rgb(241, 173, 134);
 }
 
 /*
@@ -315,68 +323,70 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 */
 
 /* Service Card Container */
-.services-container{
+.services-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
+
 .service-card {
   /* SIZING */
   height: 250px;
   padding: 2rem;
   margin: 0 3rem 3rem 0;
 
-  background-color: rgb(255,255,255);
+  background-color: rgb(255, 255, 255);
 
   /* FLEX */
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 20%;
-          flex: 1 0 20%;
+  -ms-flex: 1 0 20%;
+  flex: 1 0 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-}
-
-.card-header{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.icon{
-  color:rgb(241,173,134);
+.card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.icon {
+  color: rgb(241, 173, 134);
   font-size: 4.5rem;
 }
-.icon-text{
+
+.icon-text {
   margin-top: 1rem;
   font-size: 20px;
 }
 
-.card-header > div > span{
-  border-bottom: 2px solid rgb(241,173,134);
+.card-header>div>span {
+  border-bottom: 2px solid rgb(241, 173, 134);
   height: 30px;
 }
 
-.card-msg{
+.card-msg {
   line-height: 1.5;
   text-align: center;
   margin: 1rem;
@@ -384,23 +394,23 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 
 /* BEHIND THE BACK STORY */
 
-#behind-the-story{
+#behind-the-story {
   /* Flex */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
 
   /* Sizing */
   height: 400px;
@@ -413,13 +423,14 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   background: url(../images/collaboration.jpg) no-repeat center center fixed;
   background-size: cover;
 }
-#behind-the-story > .overlay{
+
+#behind-the-story>.overlay {
   height: 400px;
   position: absolute;
 
 }
 
-.story-container{
+.story-container {
   width: 80%;
   z-index: 2;
   display: -webkit-box;
@@ -427,53 +438,55 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
-.story-header{
+
+.story-header {
   font-size: 35px;
 }
 
-.story-text{
+.story-text {
   margin: 1rem 0;
   line-height: 1.5;
   max-width: 500px;
 }
 
-.learn-more{
+.learn-more {
   margin: 1rem 0 2rem 0;
 }
 
-.stats{
+.stats {
   margin: 1rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.stat{
-  -webkit-box-flex:1;
-      -ms-flex:1 0 25%;
-          flex:1 0 25%;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-              -ms-flex-direction: column;
-                  flex-direction: column;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          margin: 2px;
+.stat {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 25%;
+  flex: 1 0 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 2px;
 }
 
-.number{
+.number {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 0.7rem;
 }
-.stat-name{
+
+.stat-name {
   font-size: 1.2rem;
   font-weight: 700;
 }
@@ -481,22 +494,22 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 
 /* PRICING SECTION STYLES */
 
-.pricing-container{
+.pricing-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 100%;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 
 /* PRICING CARD */
-.pricing-card{
-  background-color: rgb(255,255,255);
+.pricing-card {
+  background-color: rgb(255, 255, 255);
 
   min-height: 55vh;
   min-height: 55vh;
@@ -508,56 +521,57 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
 
   -webkit-box-direction: normal;
 
-      -ms-flex-direction: column;
+  -ms-flex-direction: column;
 
-          flex-direction: column;
+  flex-direction: column;
 }
 
-.pricing-card:nth-child(n+1){
+.pricing-card:nth-child(n+1) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /* Plan Name */
-.plan{
+.plan {
   font-size: 1.5rem;
-  color:rgb(241,173,134);
+  color: rgb(241, 173, 134);
 }
 
 /* Plan Cost container */
-.plan-cost{
+.plan-cost {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   margin: 1rem;
 }
+
 /* $$ formatting */
-.dollar-cost{
+.dollar-cost {
   font-size: 2.2rem;
   font-weight: bolder;
 }
 
-.per-month{
+.per-month {
   margin: 0.5rem 0 0.5rem 0;
-  color:rgb(241,173,134);
+  color: rgb(241, 173, 134);
 }
 
-.plan-description{
+.plan-description {
   line-height: 3;
   margin-bottom: 4rem;
   display: -webkit-box;
@@ -565,28 +579,102 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.not-included{
-  color: rgb(209,210,213)
+.not-included {
+  color: rgb(209, 210, 213)
 }
 
+/* Footer */
+#footer {
+  background-color: rgb(45, 53, 66);
+  color: rgb(255, 255, 255);
+  width: 100vw;
+  line-height: 1.5;
+}
+
+/* Shared Styling */
+.contact-info,
+.footer-credentials,
+.footer-quicklinks,
+.footer-msg-container,
+.footer-contact-info {
+  margin: 1rem;
+}
+
+.sitemap-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+/* LOGO AND MESSAGE */
+.footer-msg-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.logo {
+  margin-bottom: 1rem;
+}
+
+
+/* FOOTER QUICK LINK */
+.footer-quicklinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+}
+
+.footer-quicklinks>h2 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.footer-quicklinks>a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/* Credentials */
+/* TODO:: IMPLEMENT CREDS OR DROP THIS SECTION??? */
+.footer-credentials {
+  display: none;
+}
+
+/* ADDRESS AND CONTACT INFO */
+.footer-contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-contact-info>h2 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
 
 /* MOBILE MEDIA QUERIES*/
 
 /* LandScape and Tablet */
-@media only screen and (max-width: 725px){
+@media only screen and (max-width: 725px) {
+
   /* Stack the Image and the Why us text on smaller screens */
-  #why-us{
+  #why-us {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   /* Stack the service cards on small screens  */
@@ -595,39 +683,40 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
-  .service-msg, .pricing-msg {
+  .service-msg,
+  .pricing-msg {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
-  .service-card{
+  .service-card {
     min-height: 250px;
     padding: 2rem;
     margin: 2rem;
   }
 
-  .stats{
+  .stats {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
 /* Small Screen Portrait */
-@media only screen and (max-width: 575px){
+@media only screen and (max-width: 575px) {
 
-  .welcome-msg{
+  .welcome-msg {
     width: 100%;
   }
 
@@ -637,14 +726,16 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
     right: 25px;
     bottom: -155px;
 
-}
+  }
 
-  .container{
+  .container {
     left: 0;
     margin: 0 1rem;
   }
 
-  #service, #pricing,  #testionials{
+  #service,
+  #pricing,
+  #testionials {
     padding: 0;
     margin-top: 1rem;
   }
@@ -653,60 +744,29 @@ SERVICES & PRICING SECTION CONTAINER STYLING */
     margin: 1rem 0;
   }
 
-  #behind-the-story, #behind-the-story> .overlay{
+  #behind-the-story,
+  #behind-the-story>.overlay {
     height: 500px
   }
-  .story{
+
+  .story {
     margin: 0 1.3rem;
   }
 
- .why-us-msg-container {
-   height:100%;
- }
+  .why-us-msg-container {
+    height: 100%;
+  }
 
- .text{
-   width: 100%;
- }
+  .text {
+    width: 100%;
+  }
 
- .view-more-services, .learn-more-about-pricing {
-   width: 100%;
-   -webkit-box-pack: start;
-       -ms-flex-pack: start;
-           justify-content: flex-start;
-   margin-top: 1rem;
- }
+  .view-more-services,
+  .learn-more-about-pricing {
+    width: 100%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
 }
-
-/* Footer */
-#footer {
-  background-color: rgb(45,53,66);
-  color: rgb(255,255,255);
-  width:100%;
-}
-
-.contact-info, .footer-credentials, .footer-quicklinks,.footer-msg-container {
-  margin: 1rem;
-}
-
-.sitemap-container{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.footer-msg-container{
-  display: flex;
-  flex-direction: column;
-  /* width: 40%; */
-  width: 400px;
-  height: 100px;
-}
-
-.footer-quicklinks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 10%;
-}
-
-
